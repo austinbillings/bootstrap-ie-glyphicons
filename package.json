@@ -1,0 +1,30 @@
+{
+  "name": "bootstrap-ie-glyphicons",
+  "version": "1.0.0",
+  "description": "Add glyphicon font support to IE11 when it blocks font loading",
+  "main": "dist/bootstrap-ie-glyphicons.css",
+  "scripts": {
+    "build": "NODE_ENV=production; rm dist/*; webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinbillings/bootstrap-ie-glyphicons.git"
+  },
+  "author": "Austin <austin@austinbillings.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinbillings/bootstrap-ie-glyphicons/issues"
+  },
+  "homepage": "https://github.com/austinbillings/bootstrap-ie-glyphicons#readme",
+  "dependencies": {
+    "base64-font-loader": "0.0.4",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.12.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.5"
+  }
+}
